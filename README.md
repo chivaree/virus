@@ -20,12 +20,11 @@ pip3 install pafy
 pip3 install wikiapi
 pip3 install wikipedia
 pip3 install thrift
-pip3 install urllib3
 pip3 install html5lib
-pip3 install traceback
 pip3 install bs4
 pip3 install gtts
 pip3 install str
 pip3 install antolib
 pip3 install akad
+
 🌟ID:Line chivaree🌟
