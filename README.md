@@ -1,5 +1,5 @@
- 💗 Self βot A-jang 💗
+💗 Self βot A-jang 💗
 
-••••• Virus kitty •••••
+•••• Virus kitty ••••
 
- •🌟ID:Line chivaree🌟•
+•🌟ID:Line chivaree🌟•
