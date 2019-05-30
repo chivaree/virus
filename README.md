@@ -1,4 +1,4 @@
-      💗💗 Virus Kitty 💗💗
+💗💗 Virus Kitty 💗💗
 apt update
 apt upgrade
 pkg install nano
@@ -28,4 +28,4 @@ pip3 install gtts
 pip3 install str
 pip3 install antolib
 pip3 install akad
-     •🌟ID:Line chivaree🌟•
+🌟ID:Line chivaree🌟
