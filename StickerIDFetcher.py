@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-import linepy
-from linepy.lib.curve.ttypes import *
+import TyfeAPI
+from TyfeAPI.lib.curve.ttypes import *
 
 print("\nWelcome to Sticker ID Fetcher\n")
 
@@ -30,12 +30,12 @@ print("Now, send a sticker to any chat room. The program will automatically fetc
 try:
     while True:
         try:
-            Ops = line.fetchOps(line.Poll.rev, 50)
+            Ops = cl.fetchOps(cl.Poll.rev, 5)
         except EOFError:
-            raise Exception("It might be wrong revision\n" + str(line.Poll.rev))
+            raise Exception("It might be wrong revision\n" + str(cl.Poll.rev))
         for Op in Ops:
             if (Op.type != 0 and Op.type != OpType.END_OF_OPERATION):
-                line.Poll.rev = max(line.Poll.rev, Op.revision)
+                cl.Poll.rev = max(cl.Poll.rev, Op.revision)
                 operate(Op)
 except:
-    print("\nEnd of operation\nThis program is created by Noxtian team\n")
+    print("\nEnd of operation\nThis program is created by Sven team\n")
