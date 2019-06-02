@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from LINEPY import *
-from chivaree.ttypes import LiffChatContext, LiffContext, LiffSquareChatContext, LiffNoneContext, LiffViewRequest
+from paho.ttypes import LiffChatContext, LiffContext, LiffSquareChatContext, LiffNoneContext, LiffViewRequest
 from akad.ttypes import *
 from akad.ttypes import Message
 from akad.ttypes import ContentType as Type
